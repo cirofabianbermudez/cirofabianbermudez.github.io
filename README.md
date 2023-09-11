@@ -1,2 +1,3 @@
 # cirofabianbermudez.github.io
-personal page
+[Ir a la página personal](https://www.cirofabianbermudez.com/)
+
