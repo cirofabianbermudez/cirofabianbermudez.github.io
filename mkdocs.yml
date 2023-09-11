@@ -18,6 +18,7 @@ theme:
     - content.code.copy        # Añade el simbolo de copiar
     - content.code.annotate    # Permite añadir signo (+) en comentarios del código # (1)
     - content.tabs.link        # Cambian los code tabs juntos
+    - content.action.view
 #    - navigation.footer        # Botones de navegacion en el footer
     - navigation.indexes       # Habilitar index para carpetas
     - navigation.sections      # Despliega las secciones en negritas
