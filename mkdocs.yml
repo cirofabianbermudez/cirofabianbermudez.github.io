@@ -18,12 +18,11 @@ theme:
     - content.code.copy        # Añade el simbolo de copiar
     - content.code.annotate    # Permite añadir signo (+) en comentarios del código # (1)
     - content.tabs.link        # Cambian los code tabs juntos
-    - content.action.view
 #    - navigation.footer        # Botones de navegacion en el footer
     - navigation.indexes       # Habilitar index para carpetas
     - navigation.sections      # Despliega las secciones en negritas
     - navigation.tabs          # Cambia la navegacion por pestañas
-    - navigation.tabs.sticky   # Mantener las pestañas siempre
+#    - navigation.tabs.sticky   # Mantener las pestañas siempre
 #    - navigation.expand        # Expande las secciones, desactivar tabs
     - navigation.top           # Anade boton para subir rapido
     - navigation.tracking      # Modifica el URL dependiendo de la seccion
@@ -38,7 +37,7 @@ theme:
 # Color palette configuration
   palette:
     - scheme: default
-      primary: teal #teal indigo
+      primary: teal
       accent: teal
       toggle:
         icon: material/brightness-4
@@ -89,8 +88,7 @@ plugins:
       pagination_per_page: 5
       authors: true
       draft: false
-      draft_on_serve: true
-      
+      draft_on_serve: true   
   
 # Extras
 extra:
@@ -180,8 +178,8 @@ extra_javascript:
 # Page tree
 nav:
   - Home: 
-      - index.md
+    - index.md
   - Blog:
-      - blog/index.md
+    - blog/index.md
   - Tags:
-      - tags.md
+    - tags.md
