@@ -1,12 +1,13 @@
 ---
-date: 2023-09-09
-#title: ""
-#description: ""
 draft: false
-#tags:
-#hide:
-#  - navigation
-#  - toc
+date: 2023-09-10
+# title: ""
+# description: 
+authors: ciro
+tags: []
+# hide: 
+#   - navigation
+#   - toc
 #  - path
 ---
 

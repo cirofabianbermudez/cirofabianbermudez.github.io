@@ -358,7 +358,7 @@ Esta es una plantilla sugerida para el encabezado de las entradas de blog en Mkd
 ```yaml
 draft: false
 date: 2023-09-10
-description: 
+description: ""
 authors:
   - pepe
 tags: []
