@@ -1,8 +1,11 @@
 # Project information
 site_name: my_page
 site_author: Ciro Fabian Bermudez Marquez
+site_description: >-
+  Mi pagina web personal
 
 # Repository
+# repo_name: cirofabianbermudez
 repo_url: https://github.com/cirofabianbermudez
 site_url: https://cirofabianbermudez.com
 
