@@ -1,8 +1,8 @@
 ---
 draft: false
 date: 2023-09-10
-# title: ""
-# description: 
+description: >
+  Página principal personal.
 authors: ciro
 tags: []
 # hide: 
@@ -14,5 +14,7 @@ tags: []
 # Home
 
 ## Proyectos
+
+
 
 1. [curso_fpga](https://cirofabianbermudez.com/curso_fpga/)

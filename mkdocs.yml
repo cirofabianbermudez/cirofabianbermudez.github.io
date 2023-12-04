@@ -69,7 +69,7 @@ plugins:
   - glightbox
   - tags:
       enabled: true
-      tags_file: tags.md
+      tags_file: tags/index.md
   - blog:
       enabled: true
       post_date_format: full
@@ -185,4 +185,6 @@ nav:
   - Blog:
     - blog/index.md
   - Tags:
-    - tags.md
+    - tags/index.md
+  - About me:
+    - about_me/index.md

@@ -20,7 +20,7 @@ Este artículo es una guía de cómo configurar Obsidian para sacarle el mayor p
 
 ## Portabilidad
 
-Cuando quieras copiar toda tu configuración de un vault a otro solo es necesario copiar la carpeta `.obsidian` y pegarla en la raíz de cada uno de los vault que tengas. De esta manera una vez configurado todo no es necesario reconfigurar todo otra vez.
+Cuando quieras copiar toda tu configuración de un vault a otro solo es necesario copiar la carpeta `.obsidian` y pegarla en la raíz del vault donde quieras la misma configuración. De esta manera una vez configurado todo no es necesario reconfigurar para cada nuevo vault.
 
 
 ## Atajos útiles
