@@ -1,5 +1,20 @@
-/* Dark mode */
-[data-md-color-scheme="slate"] {
-  //--md-default-bg-color: #1e1e1e;
-  //--md-code-bg-color:      #ffffff;
+/* Fix Scrollbar problem */
+body {
+  width: 100vw;
+}
+
+/* Justify text */
+.justify p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+:root {
+}
+
+[data-md-color-scheme="dark-mode"] {
+  --md-primary-fg-color:        #000000;
+  --md-primary-fg-color--light: #000000;
+  --md-primary-fg-color--dark:  #000000;
 }

@@ -1,0 +1,72 @@
+/* Justify text */
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Set header button logo height */
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 2.5rem;
+}
+
+/* Variable for custom buttons */
+:root {
+  --button-hmargin: 0px;
+  --button-vmargin: 5px;
+  --button-width: 70%;
+}
+
+/* Fix Scrollbar problem */
+/* https://dev.to/rashidshamloo/preventing-the-layout-shift-caused-by-scrollbars-2flp */
+body {
+  width: 100vw
+}
+
+/* Training styles */
+.md-button--train {
+  width: 60%;
+  min-width: 10rem;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Technology documents styles */
+.md-button--tech {
+  width: calc((var(--button-width) - 2*2*var(--button-hmargin)) / 2 );
+  min-width: 10rem;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+}
+
+/* NDA & Export control styles */
+.md-button--custom-four {
+  width: calc((var(--button-width) - 4*2*var(--button-hmargin)) / 4 );
+  min-width: 10rem;
+  display: inline-block;
+  text-align: center;
+  margin: var(--button-vmargin) var(--button-hmargin);
+}
+
+.md-button--custom-three {
+  width: calc((var(--button-width) - 3*2*var(--button-hmargin)) / 3 );
+  min-width: 10rem;
+  display: inline-block;
+  text-align: center;
+  margin: var(--button-vmargin) var(--button-hmargin);
+}
+
+.md-button--custom-two {
+  width: calc((var(--button-width) - 2*2*var(--button-hmargin)) / 2 );
+  min-width: 10rem;
+  display: inline-block;
+  text-align: center;
+  margin: var(--button-vmargin) var(--button-hmargin);
+}
+
+@media (max-width: 65em) {
+  .md-button--custom-four, .md-button--custom-three, .md-button--custom-two{
+    display: block;
+    width: var(--button-width);
+  }
+}

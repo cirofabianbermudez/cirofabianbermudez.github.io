@@ -1,0 +1,80 @@
+# Project information
+site_name: CERN ASIC Support and Foundry Services
+site_url: https://sitename.example
+site_author: Ciro Bermudez
+site_description: >-
+  CERN ASIC Support and Foundry Services
+
+# Repository
+
+# Copyright
+copyright: Copyright &copy; 2024 Ciro Bermudez
+
+# Configuration
+theme:
+  name: material
+  custom_dir: material/overrides
+  language: en
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    #    - navigation.top
+  font:
+    text: Nunito
+    code: Roboto Mono
+  logo: assets/images/logo_white.png
+  favicon: assets/images/logo_black.png
+
+# Additional configuration
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/ciro-fabian-bermudez-marquez-a93096227
+  - icon: fontawesome/brands/github
+    link: https://github.com/cirofabianbermudez
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+# Custom stylesheets
+extra_css:
+  - stylesheets/extra.css
+
+# Page tree
+nav:
+  - Home: 
+    - index.md
+  - Foundry services: 
+    - foundry-services/index.md
+  - Technology document & guidelines: 
+    - technical-documents/index.md
+    - T-28 nm:
+      - technical-documents/28-nm.md
+    - T-65 nm:
+      - technical-documents/28-nm.md
+  - IP blocks: 
+    - ip-blocks/index.md
+  - Design flows: 
+    - flows/index.md
+  - Training: 
+    - training/index.md
+    - training/dot/index.md
+    - training/uvm/index.md
+  - NDA & Export control: nda-and-export-control/index.md
+  - Contacts: contacts/index.md

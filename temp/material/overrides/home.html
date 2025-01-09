@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href={{ 'assets/stylesheets/custom.css' | url }}>
+{% endblock %}
+
+{% block tabs %}
+  {{ super() }}
+  
+  <div class="gradient">
+
+      <div class="hero">
+        <img src="assets/images/asicsuplogo.png" alt="CERN ASIC Support and Foundry Services" class="hero-img">
+        <p> CERN EP-ESE offers a range of services to collaborating institutes and universities,
+          facilitating the use of microelectronic technologies for developing
+          integrated circuits for fundamental research in physics experiments.
+        </p>
+        <p>
+          <a class="md-button" href="#">Request access </a>
+          <a class="md-button" href="#">Contact us </a>
+        </p>
+        
+      </div>
+
+  </div>
+  
+
+{% endblock %}
+<!-- {% block content %}{% endblock %}
+{% block footer %}{% endblock %} -->

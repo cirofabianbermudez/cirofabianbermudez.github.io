@@ -1,190 +1,103 @@
 # Project information
-site_name: my_page
-site_author: Ciro Fabian Bermudez Marquez
+site_name: Ciro Bermudez
+site_author: Ciro Bermudez
 site_description: >-
-  Mi pagina web personal
-
+  
 # Repository
 # repo_name: cirofabianbermudez
-repo_url: https://github.com/cirofabianbermudez
-site_url: https://cirofabianbermudez.com
-
+# repo_url: https://github.com/cirofabianbermudez
+# site_url: https://cirofabianbermudez.com
+  
 # Copyright
 copyright: >-
-  &copy; 2023 Ciro Bermudez
+  Copyright &copy; 2024 Ciro Bermudez
   
 theme:
   name: material
-  icon:
-    logo: material/library
-  features:
-    - content.code.copy        # Añade el simbolo de copiar
-    - content.code.annotate    # Permite añadir signo (+) en comentarios del código # (1)
-    - content.tabs.link        # Cambian los code tabs juntos
-#    - navigation.footer        # Botones de navegacion en el footer
-    - navigation.indexes       # Habilitar index para carpetas
-    - navigation.sections      # Despliega las secciones en negritas
-    - navigation.tabs          # Cambia la navegacion por pestañas
-#    - navigation.tabs.sticky   # Mantener las pestañas siempre
-#    - navigation.expand        # Expande las secciones, desactivar tabs
-    - navigation.top           # Anade boton para subir rapido
-    - navigation.tracking      # Modifica el URL dependiendo de la seccion
-    - search.suggest           # Sugerencias del buscador
-    - search.highlight         # Resaltar la palabra buscada
-#    - search.share            # Boton de compartir en busqueda
-    - toc.follow               # Autoscroll table of contents
-    - navigation.path          # Muestra la path, para insiders
-#    - toc.integrate            # Las secciones las pones a la izquierda, aumenta espacio no compatible con navigation.indexes
-# Language configuration
   language: en
-# Color palette configuration
   palette:
-    - scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
-    - scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-# Font configuration
-  font:
-    text: Roboto
-    code: Roboto Mono
-    
-# Plugins para search
-plugins:
-  - social:
-      enabled: true
-      cards: true
-  - search:
-      lang: 
-        - en
-        - es
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - glightbox
-  - tags:
-      enabled: true
-      tags_file: tags/index.md
-  - blog:
-      enabled: true
-      post_date_format: full
-      post_url_date_format: yyyy/MM/dd
-      post_readtime: true
-      post_readtime_words_per_minute: 265
-      archive: true
-      archive_name: Archive
-      archive_date_format: MMMM yyyy
-      archive_url_date_format: yyyy/MM
-      categories: true
-      categories_name: Categories
-      categories_allowed:
-        - General
-        - Search
-        - Performance
-        - Investigaciones
-      pagination: true
-      pagination_per_page: 5
-      authors: true
-      draft: false
-      draft_on_serve: true   
-  
-# Extras
-extra:
-# Footer configuration
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/cirofabianbermudez
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/CiroBermudez
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/ciro-fabian-bermudez-marquez-a93096227/
-# Google analitycs
-#  analytics:
-#    provider: google
-#    property: G-9K60RTS6RK
 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - header.autohide
+    - content.code.copy
+  font:
+    text: Inter
+    code: Monaco
+  logo: assets/logo/logo.svg
+  favicon: assets/logo/favicon.svg
+
+# Plugins
+plugins:
+  - search
+
+# Additional configuration
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/cirofabianbermudez
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/ciro-fabian-bermudez-marquez-a93096227
+  - icon: fontawesome/brands/github
+    link: https://github.com/cirofabianbermudez
+
+# Custom stylesheets
+extra_css:
+  - stylesheets/extra.css
+
+# Custom javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# Extensions
 markdown_extensions:
-# Mermaid configuration
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-# Content tabs configuration (pestanias en codigos y anotaciones)
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true 
-# Code blocks configuration
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-# Table of contents configuration
-  - toc:
-      permalink: true
-# Admonitions configuration (note, info, tip)
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-# Annotations configuration
-  - attr_list
-  - md_in_html
-  - pymdownx.superfences
-# Footnotes configuration
-  - footnotes
-# List configuration
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-# Caret, Mark & Tilde configuration
-  - pymdownx.caret                # ^^Insert me^^
-  - pymdownx.mark                 # ==mark me==
-  - pymdownx.tilde                # ~~Delete me~~
-# BetterEM condiguration
-  - pymdownx.betterem
-# Tables configuration
-  - tables
-# Custom key icons
-  - pymdownx.keys
-# Smart symbols configuration
-  - pymdownx.smartsymbols
-# Icons, Emojis configuration
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-# MathJax configuration
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
-# Additional CSS 
-extra_css:
-  - stylesheets/extra.css
-
-
-# Additional JavaScript¶
-extra_javascript:
-  - javascripts/extra.js
-# MathJaxs javascript configuration
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  
 # Page tree
 nav:
-  - Home: 
+  - Home:
     - index.md
   - Blog:
     - blog/index.md
-  - Tags:
-    - tags/index.md
-  - About me:
-    - about_me/index.md
