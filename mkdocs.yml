@@ -1,16 +1,17 @@
 # Project information
-site_name: Ciro Bermudez
+site_name: Ciro's Website
 site_author: Ciro Bermudez
 site_description: >-
-  
-# Repository
-# repo_name: cirofabianbermudez
-# repo_url: https://github.com/cirofabianbermudez
-# site_url: https://cirofabianbermudez.com
+  This is my personal website, where I share my projects and ideas.
   
 # Copyright
 copyright: >-
-  Copyright &copy; 2024 Ciro Bermudez
+  Copyright &copy; 2025 Ciro Bermudez
+
+# Repository
+repo_name: cirofabianbermudez
+repo_url: https://github.com/cirofabianbermudez
+# site_url: https://cirofabianbermudez.com
   
 theme:
   name: material
@@ -38,13 +39,14 @@ theme:
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
+    # - navidation.expand
     - header.autohide
     - content.code.copy
   font:
     text: Inter
     code: Monaco
-  logo: assets/logo/logo.svg
-  favicon: assets/logo/favicon.svg
+  logo: assets/images/site_logo/logo.svg
+  favicon: assets/images/site_logo/favicon.svg
 
 # Plugins
 plugins:
@@ -54,8 +56,6 @@ plugins:
 extra:
   generator: false
   social:
-  - icon: fontawesome/brands/github-alt
-    link: https://github.com/cirofabianbermudez
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/in/ciro-fabian-bermudez-marquez-a93096227
   - icon: fontawesome/brands/github
@@ -101,3 +101,5 @@ nav:
     - index.md
   - Blog:
     - blog/index.md
+  - About me:
+    - about_me/index.md

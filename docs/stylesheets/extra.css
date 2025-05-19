@@ -3,18 +3,33 @@ body {
   width: 100vw;
 }
 
-/* Justify text */
+/* Justify text wrapper */
 .justify p {
     text-align: justify;
     text-justify: inter-word;
 }
 
-
-:root {
+/* Style for all rows in the highlight table */
+.highlighttable tbody > tr {
+    font-size: 0.8em;
 }
 
-[data-md-color-scheme="dark-mode"] {
-  --md-primary-fg-color:        #000000;
-  --md-primary-fg-color--light: #000000;
-  --md-primary-fg-color--dark:  #000000;
+/* Minimum width for the first cell of all rows in specific content tables */
+.md-typeset__scrollwrap table td:first-child {
+    /* min-width: 12em; */
+}
+
+/* Justify text in the second cell of all rows in the table */
+.md-typeset table td:last-child {
+    text-align: justify !important;
+}
+
+/* Bigger font-size in tables */
+.md-typeset__table table code {
+    font-size: 0.9em;
+}
+
+/* Justify text inside admotion*/
+.md-typeset .admonition ul li {
+  text-align: justify;
 }
