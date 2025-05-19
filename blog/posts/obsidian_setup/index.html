@@ -1,0 +1,1408 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Entrada de blog de cómo tengo configurado Obsidian en mi computadora personal.
+">
+      
+      
+        <meta name="author" content="Ciro Bermudez">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/site_logo/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Configuración de Obsidian - Ciro's Website</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CMonaco:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Monaco"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configuracion-de-obsidian" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Ciro&#39;s Website" class="md-header__button md-logo" aria-label="Ciro's Website" data-md-component="logo">
+      
+  <img src="../../../assets/images/site_logo/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ciro's Website
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuración de Obsidian
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cirofabianbermudez" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cirofabianbermudez
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 4H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 19V6h8v13zm18 0h-8V6h8zm-7-9.5h6V11h-6zm0 2.5h6v1.5h-6zm0 2.5h6V16h-6z"/></svg>
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about_me/" class="md-tabs__link">
+          
+  
+  
+    
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c-35.3 0-64 28.7-64 64H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40c0 35.3 28.7 64 64 64v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40c35.3 0 64-28.7 64-64h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40v-56h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40v-56h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40c0-35.3-28.7-64-64-64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40h-56V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40h-56zm-16 104h192c17.7 0 32 14.3 32 32v192c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32m192 32H160v192h192z"/></svg>
+    
+  
+  About me
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Ciro&#39;s Website" class="md-nav__button md-logo" aria-label="Ciro's Website" data-md-component="logo">
+      
+  <img src="../../../assets/images/site_logo/logo.svg" alt="logo">
+
+    </a>
+    Ciro's Website
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cirofabianbermudez" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cirofabianbermudez
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 4H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M3 19V6h8v13zm18 0h-8V6h8zm-7-9.5h6V11h-6zm0 2.5h6v1.5h-6zm0 2.5h6V16h-6z"/></svg>
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../about_me/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c-35.3 0-64 28.7-64 64H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24h40c0 35.3 28.7 64 64 64v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24v-40c35.3 0 64-28.7 64-64h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40v-56h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40v-56h40c13.3 0 24-10.7 24-24s-10.7-24-24-24h-40c0-35.3-28.7-64-64-64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40h-56V24c0-13.3-10.7-24-24-24s-24 10.7-24 24v40h-56zm-16 104h192c17.7 0 32 14.3 32 32v192c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32m192 32H160v192h192z"/></svg>
+  
+  <span class="md-ellipsis">
+    About me
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            About me
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#portabilidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portabilidad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atajos-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atajos útiles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atajos-personalizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atajos personalizados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opciones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Opciones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#files-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Files &amp; Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#community-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Community Plugins
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Community Plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tagfolder" class="md-nav__link">
+    <span class="md-ellipsis">
+      TagFolder
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Linter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calendar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calendar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dataview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dataview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editor-syntax-highlight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editor Syntax Highlight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kanban" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kanban
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outliner" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outliner
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Tables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templeater" class="md-nav__link">
+    <span class="md-ellipsis">
+      Templeater
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-slides" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Slides
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excalidraw" class="md-nav__link">
+    <span class="md-ellipsis">
+      ExcaliDraw
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better-word-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      Better Word Count
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hider
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      Settings Search
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recent-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recent Files
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-time-on-edit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update time on edit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="configuracion-de-obsidian">Configuración de Obsidian</h1>
+<p>Este artículo es una guía de cómo configurar Obsidian para sacarle el mayor provecho, si bien Obsidian es perfectamente funcional después de instalarlo, existen una gran cantidad de plugins que ayudan a extender su funcionalidad  y convertirlo en más que una aplicación para tomar notas. </p>
+<!-- more -->
+
+<h2 id="portabilidad">Portabilidad</h2>
+<p>Cuando quieras copiar toda tu configuración de un vault a otro solo es necesario copiar la carpeta <code>.obsidian</code> y pegarla en la raíz del vault donde quieras la misma configuración. De esta manera una vez configurado todo no es necesario reconfigurar para cada nuevo vault.</p>
+<h2 id="atajos-utiles">Atajos útiles</h2>
+<p>Lo primero que aprendí después de instalar Obsidian fueron los atajos de teclado. Para mi es muy importante no despegar las manos del teclado y por lo tanto no depender de tener un mouse a la mano. Los atajos de teclado son una manera de agilizar el flujo de trabajo de cualquier persona y estos son mis favoritos. Marcaré con el símbolo <strong>!!</strong> atajos que pienso son esenciales.</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Hotkey</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quick search</td>
+<td><code>Ctrl + o</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>Bold</td>
+<td><code>Ctrl + b</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>Italics</td>
+<td><code>Ctrl + i</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Web link</td>
+<td><code>Ctrl + k</code></td>
+<td></td>
+</tr>
+<tr>
+<td>New note</td>
+<td><code>Ctrl + n</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>New note in new tab</td>
+<td><code>Ctrl + Shift + n</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Toggle check list</td>
+<td><code>Ctrl + l</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Open command palet</td>
+<td><code>Ctrl + p</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>New note from template</td>
+<td><code>Alt + n</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>Open link in the same tab</td>
+<td><code>Alt + Enter</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Switch tabs right</td>
+<td><code>Ctrl + Tab</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Switch tabs left</td>
+<td><code>Ctrl + Shift + Tab</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Open graph view</td>
+<td><code>Ctrl + g</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Open link in another tab</td>
+<td><code>Ctrl + Enter</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Open settings</td>
+<td><code>Ctrl + ,</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Open last closed window</td>
+<td><code>Ctrl + Shift + t</code></td>
+<td><strong>!!</strong></td>
+</tr>
+<tr>
+<td>Toggle reading viwe</td>
+<td><code>Ctrl + e</code></td>
+<td><strong>!!</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="atajos-personalizados">Atajos personalizados</h2>
+<p>Una de las cosas que no me gusta de Obsidian es que los menús laterales después de redimensionar la ventana utilizan la mayoría del espacio disponible. Para poder contraerlos de manera rápida añadí los primeros dos atajos de teclado personalizados de la siguiente tabla.</p>
+<p>En muchas ocasiones es necesario comprobar cómo se ve el código como si fuera leído como un simple archivo de texto, para esto añadí el tercer atajo de teclado personalizado, finalmente para añadir links internos y no tener que escribir <code>[[]]</code> manualmente añadí el cuarto atajo.</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th style="text-align: center;">Hotkey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toggle Left sidebar</td>
+<td style="text-align: center;"><code>Ctrl + \</code></td>
+</tr>
+<tr>
+<td>Toggle Right sidebar</td>
+<td style="text-align: center;"><code>Ctrl + Space</code></td>
+</tr>
+<tr>
+<td>Toggle Live Preview/Source mode</td>
+<td style="text-align: center;"><code>Ctrl + r</code></td>
+</tr>
+<tr>
+<td>Add internal link</td>
+<td style="text-align: center;"><code>Ctrl + j</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="opciones">Opciones</h2>
+<h3 id="files-links">Files &amp; Links</h3>
+<p>Configurar Attachments folder path a una carpeta específica llamada <code>attachments</code>creada manualmente en la ruta principal del vault. Esto ayuda a que las imagenes que se añaden arrastrandolas o copiandolas y pegandolas siempre se encuentren en una carpeta definida y no exparcidas en carpetas diferentes de cada nota.</p>
+<h2 id="community-plugins">Community Plugins</h2>
+<p>Ya hacen 3 años desde que comencé a utilizar Obsidian y una de las razonas por las que decidí hacer esta entrada de blog es para mantener un registro de todos los plugins que he encontrado a lo largo de este tiempo. Aqui estan los todos los plugins que utilizo en mi día a día y cómo los tengo configurados.</p>
+<h3 id="tagfolder">TagFolder</h3>
+<p><a href="https://github.com/vrtmrz/obsidian-tagfolder">TagFolder</a> es un plugin que permite poder visualizar todas las notas que con tienen tags con una visualización de folder organizada y jerárquica.</p>
+<p>Una vez instalado presiona <code>Ctrl+p</code> y selecciona <code>Show Tag Folder</code>.</p>
+<p>En el menú izquierdo se mostrará una pestaña con los tags organizados.</p>
+<h3 id="linter">Linter</h3>
+<p><a href="https://github.com/platers/obsidian-linter">Linter</a> es un plugin de que da formato y estilo a tus notas centrándose en la configurabilidad y extensibilidad. Las reglas pueden ser activadas y configuradas en los ajustes. La documentación principal sobre las reglas y otras cosas se encuentran en la <a href="https://platers.github.io/obsidian-linter/">wiki.</a></p>
+<p>Este es uno de los plugins más importantes de todos ya que me permite darle formato a mis notas de manera muy rápida utilizando un atajo de teclado.</p>
+<p>Estas son mis configuraciones personales:</p>
+<p><strong>YAML rules</strong></p>
+<ul>
+<li><a href="https://platers.github.io/obsidian-linter/settings/yaml-rules/#format-tags-in-yaml">format-tags-in-yaml</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/yaml-rules/#insert-yaml-attributes">insert-yaml-attributes</a><ul>
+<li>Agregar <code>authors: &lt;author_name&gt;</code></li>
+</ul>
+</li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/yaml-rules/#yaml-key-sort">yaml-key-sort</a><ul>
+<li>Activar el orden alfabético ascendente.</li>
+</ul>
+</li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/yaml-rules/#yaml-timestamp">yaml-timestamp</a> Desactivar y mejor utilizar el plugin <a href="#update-time-on-edit">Update time on edit</a><ul>
+<li>Cambiar <code>date created</code> por <code>date_created</code>.</li>
+<li>Cambiar <code>date modified</code> por <code>date_modified</code>.</li>
+</ul>
+</li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/yaml-rules/#yaml-title-alias">yaml-title-alias</a></li>
+</ul>
+<p><strong>Heading rules</strong></p>
+<ul>
+<li><a href="https://platers.github.io/obsidian-linter/settings/heading-rules/#header-increment">header-increment</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/heading-rules/#headings-start-line">headings-start-line</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/heading-rules/#remove-trailing-punctuation-in-heading">remove-trailing-punctuation-in-heading</a></li>
+</ul>
+<p><strong>Content rules</strong></p>
+<ul>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#auto-correct-common-misspellings">auto-correct-common-misspellings</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#blockquote-style">blockquote-style</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#convert-bullet-list-markers">convert-bullet-list-markers</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#emphasis-style">emphasis-style</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#no-bare-urls">no-bare-urls</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#remove-consecutive-list-markers">remove-consecutive-list-markers</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#remove-empty-list-markers">remove-empty-list-markers</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#remove-hyphenated-line-breaks">remove-hyphenated-line-breaks</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#remove-multiple-spaces">remove-multiple-spaces</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/content-rules/#strong-style">strong-style</a></li>
+</ul>
+<p><strong>Spacing rules</strong></p>
+<ul>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#compact-yaml">compact-yaml</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#consecutive-blank-lines">consecutive-blank-lines</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#convert-spaces-to-tabs">convert-spaces-to-tabs</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#empty-line-around-blockquotes">empty-line-around-blockquotes</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#empty-line-around-code-fences">empty-line-around-code-fences</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#empty-line-around-math-blocks">empty-line-around-math-blocks</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#empty-line-around-tables">empty-line-around-tables</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#heading-blank-lines">heading-blank-lines</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#line-break-at-document-end">line-break-at-document-end</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#move-math-block-indicators-to-their-own-line">move-math-block-indicators-to-their-own-line</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#paragraph-blank-lines">paragraph-blank-lines</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#remove-empty-lines-between-list-markers-and-checklists">remove-empty-lines-between-list-markers-and-checklists</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#remove-link-spacing">remove-link-spacing</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#remove-space-around-characters">remove-space-around-characters</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#remove-space-before-or-after-characters">remove-space-before-or-after-characters</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#space-after-list-markers">space-after-list-markers</a></li>
+<li><a href="https://platers.github.io/obsidian-linter/settings/spacing-rules/#trailing-spaces">trailing-spaces</a></li>
+</ul>
+<p>Una vez instalado y configurado el plugin presiona <code>Ctrl+p</code> y selecciona <code>Linter: lint the current file</code>, también se puede utilizar el atajo <code>Ctrl+Alt+L</code>.</p>
+<h3 id="calendar">Calendar</h3>
+<p><a href="https://github.com/liamcain/obsidian-calendar-plugin">Calendar</a> es un plugin que crea una sencilla vista de Calendario para visualizar y navegar entre las notas diarias.</p>
+<p>Se puede configurar para incluir el número de la semana.</p>
+<p>Para abrir el calendario se presiona <code>Ctrl+p</code> y seleccionar <code>Calendar: Open view</code>.</p>
+<h3 id="dataview">Dataview</h3>
+<p><a href="https://github.com/blacksmithgu/obsidian-dataview">Dataview</a> es un plugin que trata tu Obsidian Vault como una base de datos que puedes consultar. Proporciona una API JavaScript y un lenguaje pipeline-based query para filtrar, ordenar y extraer datos de páginas Markdown.</p>
+<p>Es una buena idea activar:</p>
+<ul>
+<li>Enable JavaScript Queries</li>
+<li>Enable Inline JavaScript Queries</li>
+</ul>
+<p><strong>¿Cómo utilizar Dataview?</strong></p>
+<p>Estos son los campos implícitos (<a href="https://blacksmithgu.github.io/obsidian-dataview/annotation/metadata-pages/">Implicit Fields</a>) que se pueden utilizar.</p>
+<table>
+<thead>
+<tr>
+<th>Field Name</th>
+<th>Data Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>file.name</code></td>
+<td>Text</td>
+<td>The file name as seen in Obsidians sidebar.</td>
+</tr>
+<tr>
+<td><code>file.folder</code></td>
+<td>Text</td>
+<td>The path of the folder this file belongs to.</td>
+</tr>
+<tr>
+<td><code>file.path</code></td>
+<td>Text</td>
+<td>The full file path, including the files name.</td>
+</tr>
+<tr>
+<td><code>file.ext</code></td>
+<td>Text</td>
+<td>The extension of the file type; generally <code>md</code>.</td>
+</tr>
+<tr>
+<td><code>file.link</code></td>
+<td>Link</td>
+<td>A link to the file.</td>
+</tr>
+<tr>
+<td><code>file.size</code></td>
+<td>Number</td>
+<td>The size (in bytes) of the file.</td>
+</tr>
+<tr>
+<td><code>file.ctime</code></td>
+<td>Date with Time</td>
+<td>The date that the file was created.</td>
+</tr>
+<tr>
+<td><code>file.cday</code></td>
+<td>Date</td>
+<td>The date that the file was created.</td>
+</tr>
+<tr>
+<td><code>file.mtime</code></td>
+<td>Date with Time</td>
+<td>The date that the file was last modified.</td>
+</tr>
+<tr>
+<td><code>file.mday</code></td>
+<td>Date</td>
+<td>The date that the file was last modified.</td>
+</tr>
+<tr>
+<td><code>file.tags</code></td>
+<td>List</td>
+<td>A list of all unique tags in the note. Subtags are broken down by each level, so <code>#Tag/1/A</code> will be stored in the list as <code>[#Tag, #Tag/1, #Tag/1/A]</code>.</td>
+</tr>
+<tr>
+<td><code>file.etags</code></td>
+<td>List</td>
+<td>A list of all explicit tags in the note; unlike <code>file.tags</code>, does not break subtags down, i.e. <code>[#Tag/1/A]</code></td>
+</tr>
+<tr>
+<td><code>file.inlinks</code></td>
+<td>List</td>
+<td>A list of all incoming links to this file, meaning all files that contain a link to this file.</td>
+</tr>
+<tr>
+<td><code>file.outlinks</code></td>
+<td>List</td>
+<td>A list of all outgoing links from this file, meaning all links the file contains.</td>
+</tr>
+<tr>
+<td><code>file.aliases</code></td>
+<td>List</td>
+<td>A list of all aliases for the note as defined via the <a href="https://help.obsidian.md/How+to/Add+aliases+to+note">YAML frontmatter</a>.</td>
+</tr>
+<tr>
+<td><code>file.tasks</code></td>
+<td>List</td>
+<td>A list of all tasks (I.e., <code>| [] some task</code>) in this file.</td>
+</tr>
+<tr>
+<td><code>file.lists</code></td>
+<td>List</td>
+<td>A list of all list elements in the file (including tasks); these elements are effectively tasks and can be rendered in task views.</td>
+</tr>
+<tr>
+<td><code>file.frontmatter</code></td>
+<td>List</td>
+<td>Contains the raw values of all frontmatter in form of <code>key | value</code> text values; mainly useful for checking raw frontmatter values or for dynamically listing frontmatter keys.</td>
+</tr>
+<tr>
+<td><code>file.day</code></td>
+<td>Date</td>
+<td>Only available if the file has a date inside its file name (of form <code>yyyy-mm-dd</code> or <code>yyyymmdd</code>), or has a <code>Date</code> field/inline field.</td>
+</tr>
+<tr>
+<td><code>file.starred</code></td>
+<td>Boolean</td>
+<td>If this file has been bookmarked via the Obsidian Core Plugin "Bookmarks".</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Pasos a seguir</strong></p>
+<ol>
+<li>Crear una query con un bloque de código con el lenguaje <code>dataview</code>.</li>
+<li>Seleccionar el tipo de visualización y opcionalmente una columna escribiendo algún elemento de los metadatos:<ul>
+<li><code>LIST</code></li>
+<li><code>TABLE</code></li>
+<li><code>TASK</code></li>
+<li><code>CALENDAR</code></li>
+</ul>
+</li>
+<li>Seleccionar la fuente donde se realizará la búsqueda con <code>FROM</code>:<ul>
+<li><code>"nombre_de_la_carpeta"</code></li>
+<li><code>#etiqueta</code></li>
+<li><code>[[backlinks]]</code></li>
+</ul>
+</li>
+<li>Seleccionar filtros con la palabra <code>WHERE</code><ul>
+<li><code>metadato = "Something"</code></li>
+<li><code>contains(tags,"Something")</code></li>
+<li><code>date &gt;= date(2022-02-01)</code></li>
+</ul>
+</li>
+<li>Ordenar utilizando <code>SORT</code><ul>
+<li><code>file.name ASC</code></li>
+<li><code>file.name DESC</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="editor-syntax-highlight">Editor Syntax Highlight</h3>
+<p><a href="https://github.com/deathau/cm-editor-syntax-highlight-obsidian">Editor Syntax Highlight</a> es un plugin que permite resaltar la sintaxis de los bloques de código en el editor.</p>
+<p>Aquí se muestra un ejemplo de cómo resalta el código un código en Python.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>  
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">:</span>  
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>  <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>  
+</span></code></pre></div>
+<h3 id="kanban">Kanban</h3>
+<p><a href="https://github.com/mgmeyers/obsidian-kanban">Kaban</a> es un plugin que sirve para crear tableros Kanban con Markdown en Obsidian.</p>
+<p>Se pueden obtener ideas de cómo realizar un Kanban Board de <a href="https://kanbanize.com/kanban-resources/kanban-software/kanban-board-examples">kanbanize</a>.</p>
+<p>Kanban es un popular método de gestión del flujo de trabajo para definir, gestionar y mejorar los servicios que ofrecen trabajo del conocimiento. Le ayuda a visualizar el trabajo, maximizar la eficiencia y mejorar continuamente. El trabajo se representa en tableros Kanban, lo que le permite optimizar la entrega de trabajo en varios equipos y gestionar incluso los proyectos más complejos en un único entorno.</p>
+<ol>
+<li>Visualizar el flujo de trabajo.</li>
+<li>Limitar el trabajo en progreso.</li>
+<li>Administrar el flujo.</li>
+<li>Explicitar las políticas de procesos.</li>
+<li>Aplicar flujos de retroalimentación.</li>
+<li>
+<p>Mejorar de forma colaborativa.</p>
+</li>
+<li>
+<p>Crea un tablero Kanban.</p>
+</li>
+<li>Visualiza todo el proceso en etapas.</li>
+<li>Limita los trabajos en progreso.</li>
+<li>Las tarjetas Kanban representan son una tarea.</li>
+<li>Cada tarjeta Kanban contiene información de:<ul>
+<li>Detalles sobre la tarea.</li>
+<li>¿Quién es el responsible?</li>
+<li>¿Cuál es la fecha límite?</li>
+<li>¿Cuál es la prioridad?</li>
+</ul>
+</li>
+<li>Lead Time es tiempo que tarda una tarjeta en moverse desde el inicio hasta el final.</li>
+</ol>
+<h3 id="outliner">Outliner</h3>
+<p><a href="https://github.com/vslinko/obsidian-outliner">Outliner</a> es un plugin que permite trabajar las listas como en Workflowy o RoamResearch.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th style="text-align: center;">Default hotkey (Windows/Linux)</th>
+<th style="text-align: center;">Default hotkey (MacOS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mover lista y sublistas hacia arriba</td>
+<td style="text-align: center;"><code>Ctrl+Shift+↑</code></td>
+<td style="text-align: center;"><code>Command+Shift+↑</code></td>
+</tr>
+<tr>
+<td>Desplazar lista y sublistas hacia abajo</td>
+<td style="text-align: center;"><code>Ctrl+Shift+↓</code></td>
+<td style="text-align: center;"><code>Command+Shift+↓</code></td>
+</tr>
+<tr>
+<td>Indentar la lista y las sublistas</td>
+<td style="text-align: center;"><code>Tab</code></td>
+<td style="text-align: center;"><code>Tab</code></td>
+</tr>
+<tr>
+<td>Desindentar la lista y las sublistas</td>
+<td style="text-align: center;"><code>Shift+Tab</code></td>
+<td style="text-align: center;"><code>Shift+Tab</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="advanced-tables">Advanced Tables</h3>
+<p><a href="https://github.com/tgrosinger/advanced-tables-obsidian">Advances Tables</a> es un plugin que añade navegación, formato y manipulación mejorados a las tablas markdown en Obsidian:</p>
+<ul>
+<li>Auto formato.</li>
+<li>Navegación de tablas similar a Excel (tabulador/entrada entre celdas y filas).</li>
+<li>Fórmulas de hoja de cálculo.</li>
+<li>Añadir, eliminar y mover columnas y filas.</li>
+<li>Establecer la alineación de las columnas (izquierda, centro, derecha).</li>
+<li>Ordenar filas por una columna especificada.</li>
+<li>Exportar a CSV.</li>
+</ul>
+<p><strong>¿Cómo utilizar Advanced Tables?</strong></p>
+<p>Para crear una tabla, cree un único carácter <code>|</code>,  escriba el primer encabezado de la tabla y pulse <code>Tab</code>. Continúe introduciendo encabezamientos y pulsando <code>Tab</code>  hasta crear todos los encabezamientos. Pulsa <code>Enter</code> para ir a la primera fila. Continúa rellenando celdas como antes y pulsa <code>Enter</code> de nuevo para cada nueva fila.</p>
+<table>
+<thead>
+<tr>
+<th>Hotkey</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tab</code></td>
+<td>Columna siguiente</td>
+</tr>
+<tr>
+<td><code>Shift + Tab</code></td>
+<td>Columna anterior</td>
+</tr>
+<tr>
+<td><code>Enter</code></td>
+<td>Fila siguiente</td>
+</tr>
+<tr>
+<td><code>Ctrl + Shift + D</code></td>
+<td>Abrir la barra lateral de controles de tabla</td>
+</tr>
+<tr>
+<td><code>Shift + Enter</code></td>
+<td>Salir de la última fila de la tabla</td>
+</tr>
+</tbody>
+</table>
+<p>Se pueden utilizar como hojas de cálculo, ver la documentación en <a href="https://github.com/tgrosinger/md-advanced-tables/blob/main/docs/formulas.md">Formulas in Markdown Tables</a>, por ejemplo:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Grams</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Whole Wheat Flour</td>
+<td>110</td>
+</tr>
+<tr>
+<td>Bread Flour</td>
+<td>748</td>
+</tr>
+<tr>
+<td>Warm Water</td>
+<td>691</td>
+</tr>
+<tr>
+<td>Salt</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Starter</td>
+<td>10</td>
+</tr>
+<tr>
+<td><strong>Total Grams</strong></td>
+<td>1577</td>
+</tr>
+</tbody>
+</table>
+<!-- TBLFM: @>$2=sum(@I..@-1) -->
+
+<details class="note" open="open">
+<summary>Nota</summary>
+<p>La etiqueta <code>&lt;!-- TBLFM:... --&gt;</code> no debe estar separada de la tabla.</p>
+</details>
+<h3 id="templeater">Templeater</h3>
+<p><a href="https://github.com/SilentVoid13/Templater">Templater</a> es un plugin de plantillas para Obsidian. Define un lenguaje de plantillas que te permite insertar resultados de variables y funciones en tus notas. También le permitirá ejecutar código JavaScript manipulando esas variables y funciones.</p>
+<p>El video de <a href="https://youtu.be/5j9fAvJCaig?si=d6jLyPEroNwcYkqb">Using the Obsidian Templater Plugin</a> es un buen punto de partida para empezar a utilizar este plugin.</p>
+<h3 id="advanced-slides">Advanced Slides</h3>
+<p><a href="https://github.com/MSzturc/obsidian-advanced-slides">Advanced Slides</a> es un plugin que permite crear presentaciones utilizando lenguaje Markdown.</p>
+<p>Se pueden aprender siguiendo la <a href="https://mszturc.github.io/obsidian-advanced-slides/">documentación</a> oficial, el <a href="https://youtu.be/LtBK_iNcVEQ?si=5T6J4SlOTu9qzAgM">video tutorial</a> de Nicole van der Hoeven o la plantilla de <a href="https://github.com/0atman/noboilerplate/blob/main/scripts/04-rust-impatient.md">No Boilerplate</a> que se muestra en el siguiente <a href="https://youtu.be/br3GIIQeefY?si=CoGF_YOh6ltBAB7T">video</a>.</p>
+<p>Es una herramienta muy útil para realizar presentaciones para videos de Youtube, presentaciones formales o cualquier tipo de presentación en general.</p>
+<p>Para entrar al visualizador se presiona <code>Ctrl+p</code> y seleccionar <code>Advanced Slides: Show Slide Preview</code>.</p>
+<h3 id="excalidraw">ExcaliDraw</h3>
+<p>[ExcaliDraw] es un plugin que integra Excalidraw, una herramienta de dibujo rica en características, en Obsidian. Puede almacenar y editar archivos Excalidraw en su bóveda, puede incrustar dibujos en sus documentos, y se puede vincular a los documentos y otros dibujos a / y de Excalidraw.</p>
+<h3 id="better-word-count">Better Word Count</h3>
+<p><a href="https://github.com/lukeleppan/better-word-count">Better Word Count</a> es un plugin que hace exactamente lo mismo que el incorporado Word Count plugin, excepto cuando se selecciona el texto, que contará la palabra seleccionada en lugar de todo el documento.</p>
+<p>Se recomienda desactivar el contador de palabras integrado porque este plugin está diseñado para reemplazarlo.</p>
+<p>Este plugin también tiene la capacidad de almacenar estadísticas sobre su bóveda.</p>
+<h3 id="hider">Hider</h3>
+<p><a href="https://github.com/kepano/obsidian-hider">Hider</a> es un plugin que permite ocultar ciertas partes de la interfaz de Obsidian. </p>
+<p>Este plugin no es absolutamente necesario pero es útil para crear un flujo de trabajo personalizado.</p>
+<h3 id="projects">Projects</h3>
+<p><a href="https://github.com/marcusolsson/obsidian-projects">Projects</a> es un plugin para Obsidian que te permite gestionar y visualizar notas para la gestión de proyectos.</p>
+<ul>
+<li>Crea proyectos a partir de carpetas y consultas Dataview.</li>
+<li>Cambia entre cuatro vistas diferentes: Tabla, Tablero, Calendario y Galería.</li>
+<li>Configura plantillas de notas para cada proyecto.</li>
+</ul>
+<p>Por ejemplo, si eres gestor de contenidos, Projects puede ayudarte a gestionar tu calendario de contenidos. Crea borradores, controla su estado y cuándo está prevista su publicación.</p>
+<h3 id="settings-search">Settings Search</h3>
+<p><a href="https://github.com/javalent/settings-search">Settings Search</a> es un plugin que añade una función de búsqueda global a los ajustes de Obsidian, lo que permite a los usuarios buscar rápidamente un ajuste concreto. Recordar que para entrar de manera rápida a las configuraciones se puede utilizar el atajo <code>Ctrl+,</code>.</p>
+<h3 id="recent-files">Recent Files</h3>
+<p><a href="https://github.com/tgrosinger/recent-files-obsidian">Recent Files</a> es un plugin que muestra una lista de los archivos abiertos más recientemente en la barra lateral.</p>
+<h3 id="update-time-on-edit">Update time on edit</h3>
+<p><a href="https://github.com/beaussan/update-time-on-edit-obsidian">Update time on edit</a> es un plugin que actualiza al guardar los metadatos del archivo con la hora en que se actualizó, y la hora de creación si no la hay (útil para archivos nuevos).</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Ciro Bermudez
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/ciro-fabian-bermudez-marquez-a93096227" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cirofabianbermudez" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.tabs", "navigation.top", "header.autohide", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
