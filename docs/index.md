@@ -6,12 +6,8 @@ icon: material/home
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-user-pen:{ .lg .middle } __About__
-
-    ---
-
-    Learn more about me.
-
-    [:octicons-arrow-right-24: Read more](about/about.md)
+- :octicons-package-16:{ .lg .middle } [__Projects__](projects/projects.md)
+- :material-music-box:{ .lg .middle } [__Music__](music/music.md)
+- :fontawesome-solid-user-pen:{ .lg .middle } [__About__](about/about.md)
 
 </div>
