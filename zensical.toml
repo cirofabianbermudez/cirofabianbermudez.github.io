@@ -57,6 +57,7 @@ nav = [
       { "Music" = "music/music.md"},
       { "Playlists" = [
           { "C47RIEL & Paco Amoroso" = "music/catriel_y_paco_amoroso.md"},
+          { "Van Halen" = "music/van_halen.md"},
       ]},
   ]},
   { "About" = [
