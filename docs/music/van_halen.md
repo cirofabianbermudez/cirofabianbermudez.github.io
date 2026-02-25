@@ -10,4 +10,4 @@ icon: material/music-note
 
 ## Albums
 
-### [:simple-spotify: For Unlawful Carnal Knowledge](https://open.spotify.com/album/1NDJk94691Vydq1IrIeGC0?si=3jrDIutYS5eiLtpDVK4cQQ){ .md-button .spotify-btn target="_blank" }
+### [:simple-spotify: For Unlawful Carnal Knowledge](https://open.spotify.com/album/42WP0R0fgGMJ97RaIablW9?si=ZSmRtVItRkWJWJUx5-PHnQ){ .md-button .spotify-btn target="_blank" }
