@@ -55,9 +55,21 @@ nav = [
   ]},
   { "Music" = [
       { "Music" = "music/music.md"},
-      { "Playlists" = [
+      { "Artists" = [
           { "C47RIEL & Paco Amoroso" = "music/catriel_y_paco_amoroso.md"},
           { "Van Halen" = "music/van_halen.md"},
+      ]},
+  ]},
+  { "Books" = [
+      { "Books" = "books/books.md"},
+      { "Categories" = [
+          {"Cryptography" = [
+              "books/cryptography/index.md",
+              {"The Code Book" = "books/cryptography/the_code_book.md"},
+          ]},
+          {"Physics" = [
+              "books/physics/index.md",
+          ]},
       ]},
   ]},
   { "About" = [
