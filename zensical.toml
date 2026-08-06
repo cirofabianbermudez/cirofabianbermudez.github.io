@@ -63,17 +63,27 @@ nav = [
   { "Books" = [
       { "Books" = "books/books.md"},
       { "Categories" = [
-          {"Cryptography" = [
+          { "Cryptography" = [
               "books/cryptography/index.md",
-              {"The Code Book" = "books/cryptography/the_code_book.md"},
+              { "The Code Book" = "books/cryptography/the_code_book.md"},
           ]},
-          {"Physics" = [
+          { "Physics" = [
               "books/physics/index.md",
+          ]},
+          { "Growth" = [
+              "books/growth/index.md",
           ]},
       ]},
   ]},
   { "About" = [
       { "About" = "about/about.md"},
+  ]},
+  { "Blog" = [
+      { "Blog" = "blog/blog.md"},
+      { "Posts" = [
+        { "tmux" = "blog/posts/tmux.md" },
+        { "starship" = "blog/posts/starship.md" },
+      ]},
   ]},
 
 ]
@@ -222,7 +232,7 @@ features = [
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
-    # "navigation.expand",
+    "navigation.expand",
 
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.

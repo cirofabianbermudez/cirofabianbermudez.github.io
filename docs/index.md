@@ -10,5 +10,6 @@ icon: material/home
 - :material-music-box:{ .lg .middle } [__Music__](music/music.md)
 - :fontawesome-solid-user-pen:{ .lg .middle } [__About__](about/about.md)
 - :material-bookshelf:{ .lg .middle } [__Books__](books/books.md)
+- :material-pencil:{ .lg .middle } [__Blog__](blog/blog.md)
 
 </div>
